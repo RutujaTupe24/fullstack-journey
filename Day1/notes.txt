@@ -1,0 +1,37 @@
+Full Stack --> front end + backend (database)
+
+frontend:
+   html :- hyper text markup language
+   css :-cascading style sheet
+   js :-javascript
+
+backend
+    pyhton 
+    java
+    c++
+
+databases : mysql , oracle mongodb
+
+web technologies:
+   the technology/tools used to create /develop webpages and applications.
+
+------------------------------------------------------------------------------------
+
+Html--> hyper text markup language
+    -->used to create the structure of webpages
+    -->the file must have .html extension
+    -->is itroduced by tim berners lee in 1993
+    --> it is markup language
+    --><it is combination of tage and element
+
+tag--> tag is a keyword whichc is enclosed in ankle brackets < tagname>
+   -->are two types 
+      1.paried tag
+      2.unpaired tag
+    
+1.paired tag / container tag: 
+     <html> --opening tag
+     
+     --paired tags--
+
+     </html> --closing tag 
