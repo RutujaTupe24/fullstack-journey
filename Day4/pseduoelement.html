@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo Element</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        #p1{
+                background-color: rgb(218, 250, 250);
+
+        }
+        #p1::first-letter{
+            color: red;
+            font-size: 40px;
+        }
+        #p1::first-line{
+            color: violet;
+        }
+        #p2::after {
+            content:😊😊👀; 
+        }
+        #p2::after{
+            content: 😂😂;
+        }
+        #p1::selection{
+            background-color: #FFD43B;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Pseduo Element</h1>
+    <hr>
+    <p>It is used to add style to the specific part of an element </p>
+    <p>it indicates with :: (double colon)</p>
+
+    <hr>
+
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum molestiae aut ipsam odit commodi neque quibusdam velit quisquam? Laborum facere a ab! Vel ex dolores tempora soluta! Nostrum voluptate eveniet, dolore maxime minus officia molestiae voluptates at recusandae, animi quae tempore? Odit numquam officia deserunt? Perspiciatis illo, id non et cupiditate sit animi. Facere officiis suscipit, incidunt ratione, quas, ipsum aperiam id quaerat non ea sapiente sed dolores tempore perferendis rem. Quam magnam alias sit dolore animi, deleniti inventore corporis reprehenderit repudiandae, quibusdam laborum odio quidem cum atque eaque unde ipsam minima architecto placeat? Dignissimos hic possimus odio laboriosam adipisci.</p>
+    <p id="p2">This is Content </p>
+    <i class="fa-solid fa-face-smile" style="color: #FFD43B;"></i>
+</body>
+
+</html>
