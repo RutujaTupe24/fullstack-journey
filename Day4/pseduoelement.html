@@ -12,6 +12,7 @@
                 background-color: rgb(218, 250, 250);
 
         }
+        /* used to select first line of an element */
         #p1::first-letter{
             color: red;
             font-size: 40px;
@@ -22,11 +23,18 @@
         #p2::after {
             content:😊😊👀; 
         }
-        #p2::after{
+        #p2::before{
             content: 😂😂;
         }
+        /* used for select text */
         #p1::selection{
             background-color: #FFD43B;
+        }
+        /* used for list */
+        ::marker{
+            color: blueviolet;
+            font-size: 20px;
+            
         }
     </style>
 </head>
@@ -42,6 +50,13 @@
     <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum molestiae aut ipsam odit commodi neque quibusdam velit quisquam? Laborum facere a ab! Vel ex dolores tempora soluta! Nostrum voluptate eveniet, dolore maxime minus officia molestiae voluptates at recusandae, animi quae tempore? Odit numquam officia deserunt? Perspiciatis illo, id non et cupiditate sit animi. Facere officiis suscipit, incidunt ratione, quas, ipsum aperiam id quaerat non ea sapiente sed dolores tempore perferendis rem. Quam magnam alias sit dolore animi, deleniti inventore corporis reprehenderit repudiandae, quibusdam laborum odio quidem cum atque eaque unde ipsam minima architecto placeat? Dignissimos hic possimus odio laboriosam adipisci.</p>
     <p id="p2">This is Content </p>
     <i class="fa-solid fa-face-smile" style="color: #FFD43B;"></i>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
 </body>
 
 </html>
